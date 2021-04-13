@@ -1,0 +1,83 @@
+<div class="images-container">
+  <div class="row-flex">
+      <div class="imgblock">
+        <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-html-estilos-textos/master/assets/sans-serif_1562273166980.png" alt="sans-serif" onclick="selectImage(1)"/>
+      </div>
+      <div class="imgblock">
+        <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-html-estilos-textos/master/assets/serif_1562273473315.png" alt="serif" onclick="selectImage(2)"/>
+      </div>
+  </div>
+  <div class="row-flex">
+      <div class="imgblock field radio complementary complementary-radio">
+        <input class="form-control mu-free-form-input" type="radio" name="font_image" id="radio_1" value="1" onclick="selectImage(1)"/>
+        <label for="radio_1"></label>
+      </div>
+      <div class="imgblock field radio complementary complementary-radio">
+        <input class="form-control mu-free-form-input" type="radio" name="font_image" id="radio_2" value="2" onclick="selectImage(2)"/>
+        <label for="radio_2"></label>
+      </div>
+  </div>
+</div>
+
+<script>
+  function setSolutionValue(imageIndex) {
+    let value = {'font_image': imageIndex.toString()}
+    $('#solution_content').attr('value', JSON.stringify(value));
+  }
+  
+  function selectImage(imageIndex) {
+    $(`#radio_${imageIndex}`).prop("checked", true);
+    setSolutionValue(imageIndex);
+    $('.mu-free-form-input').change(() => setSolutionValue(imageIndex));
+  }
+  
+  function loadPreviousSolution() {
+    let previousValue = $('#solution_content').val();
+    if(previousValue) {
+      let currentIndex = JSON.parse(previousValue).font_image;
+      selectImage(Number.parseInt(currentIndex))
+    }
+  }
+  
+  loadPreviousSolution();
+</script>
+
+<style>
+  .row-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .images-container {
+    display: block;
+    width: 100%;
+  }
+  .imgblock {
+    flex: 1;
+    float: left;
+    margin: 8px;
+    box-sizing: border-box;
+    vertical-align: middle;
+  }
+  .imgblock img {
+      margin: 5px;
+      width: 70%; 
+      height: auto;
+      vertical-align: middle;
+      cursor: pointer;
+  }
+  input[type="radio"]{
+    margin: 4px 0 0;
+    line-height: normal;
+    border: 0px;
+    width: 100%;
+    height: 1em;
+    background-color: #FF5B81;
+    color: white;
+  }
+  label[for*='radio'] {
+    position: absolute;
+    left: 50%;
+    top: -15px;
+  }
+</style>

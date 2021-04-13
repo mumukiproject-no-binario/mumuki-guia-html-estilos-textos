@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.primer-parrafo
+  inspection: DeclaresStyle:font-size:10px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.segundo-parrafo
+  inspection: DeclaresStyle:font-size:10em

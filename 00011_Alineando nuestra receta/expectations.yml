@@ -1,0 +1,53 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:body
+  inspection: DeclaresStyle:background-color:tan
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:header
+  inspection: DeclaresStyle:color:rgb(139, 0, 0)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:section
+  inspection: DeclaresStyle:color:saddlebrown
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.titulo
+  inspection: DeclaresStyle:color:maroon
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/h2
+  inspection: DeclaresAttribute:class="titulo"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/aside/h2
+  inspection: Not:DeclaresAttribute:class="titulo"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.titulo
+  inspection: DeclaresStyle:font-family:"Georgia", serif
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.texto
+  inspection: DeclaresStyle:font-family:"Verdana", sans-serif
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.texto
+  inspection: DeclaresStyle:font-size:1.5em
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.titulo
+  inspection: DeclaresStyle:font-size:3em
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:h1
+  inspection: DeclaresStyle:font-size:4em
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.titulo
+  inspection: DeclaresStyle:font-style:italic
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:header
+  inspection: DeclaresStyle:font-style:italic
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:footer
+  inspection: DeclaresStyle:font-style:italic
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:footer
+  inspection: DeclaresStyle:font-weight:bold
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.titulo
+  inspection: DeclaresStyle:text-align:center
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.texto
+  inspection: DeclaresStyle:text-align:justify

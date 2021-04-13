@@ -1,0 +1,1 @@
+ ¿¡Qué pasó!? :hushed: Los textos se _alinearon_ hacia donde les dijimos: a la izquierda, derecha y el centro. Lo hicimos con la propiedad `text-align` y los valores `left`, `right` y `center`, respectivamente. Esta propiedad nos va a ayudar a mejorar la **legibilidad** de nuestros textos.

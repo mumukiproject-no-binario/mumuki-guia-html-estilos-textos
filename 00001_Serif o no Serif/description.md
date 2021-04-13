@@ -1,0 +1,2 @@
+Hace muchos muchos años se grababan textos en piedra. Para eso las letras debían ser delineadas con un [cincel](https://es.wikipedia.org/wiki/Cincel) antes de ser grabadas, generando marcas como guías de alineamiento. Cuando las personas que se dedicaban a grabar seguían esas guías, creaban remates en los extremos de las letras, pareciendo así adornadas. 
+> Veamos si se entendió, ¿cómo se verían las letras "adornadas"?

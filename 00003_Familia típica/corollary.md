@@ -1,0 +1,1 @@
+¿Por qué tantas fuentes? Si el navegador no encuentra la primer fuente que le decimos (en este caso `Times New Roman`), buscará la siguiente, `Georgia`, y sino la que sigue (si la hubiera) hasta toparse con la familia (en este caso `serif`). De esa forma elegirá cualquier otra fuente pero que pertenezca a esa familia. :smiley:

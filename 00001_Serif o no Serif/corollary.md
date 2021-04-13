@@ -1,0 +1,1 @@
+¡Excelente! Ese estilo de letras con adornos, o serifas, se llama `Serif`. El otro, al ser sin serifas, se llama `Sans Serif`. Y… ¿será indistinto utilizar cualquiera de las dos? :thought_balloon: ¡Descubrámoslo!

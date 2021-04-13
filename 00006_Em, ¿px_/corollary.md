@@ -1,0 +1,3 @@
+¿Son las únicas unidades que existen? No. También tenemos a `cm`, `mm`, `in`, `pt`y `pc` por el lado de las absolutas y `rem`, `ex`, `ch`, `vw` y `vh` por el lado de las relativas. 
+
+Y… ¡momento! ¿Esas palabras raras? :scream: `Lorem Ipsum` es un antiguo y popular texto de relleno, sin sentido, que nos permite abstraernos de solo pensar "aquí irá un texto" en el momento en que estamos diseñando nuestra página web. También aporta a tener una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 

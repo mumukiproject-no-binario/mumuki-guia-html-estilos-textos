@@ -1,0 +1,1 @@
+Recordá que la clase que afecta a los títulos es `titulo` y a los textos es `texto`. Para alinear tenemos la propiedad `text-align` que puede ser usada con los valores `right`, `left`, `center` o `justify`.

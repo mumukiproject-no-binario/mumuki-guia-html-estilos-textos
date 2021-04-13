@@ -1,0 +1,1 @@
+Cuando hablamos del tipo de letra que podemos elegir para mostrar información, en realidad nos referimos al _tipo de fuente_ (no a esos lugares donde sale agua :stuck_out_tongue_closed_eyes:). `Serif` y `Sans Serif` son familias de tipos de letras o, mejor dicho, familias de tipos de fuente. ¡Veamos cómo elegirlos!

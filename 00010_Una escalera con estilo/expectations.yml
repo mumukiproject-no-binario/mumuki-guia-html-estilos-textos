@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.parrafo-a-la-izquierda
+  inspection: DeclaresStyle:text-align:left
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.parrafo-a-la-derecha
+  inspection: DeclaresStyle:text-align:right
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.parrafo-al-centro
+  inspection: DeclaresStyle:text-align:center

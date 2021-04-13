@@ -1,0 +1,12 @@
+- name: El tipo de letra para la invitación al casamiento es correcto
+  keys:
+    primer_tipo_letra:
+      equal: Serif
+- name: El tipo de letra para el blog de recetas es correcto
+  keys:
+    segundo_tipo_letra:
+      equal: Sans Serif
+- name: El tipo de letra para la monografía es correcto
+  keys:
+    tercer_tipo_letra:
+      equal: Serif
